@@ -19,50 +19,22 @@ This project is an **AI-driven news and web research tool** that combines docume
 
 ## Improvements Over the Original Version
 
-This project is based on concepts from the **Codebasics LangChain tutorial**, but it includes several improvements and custom features:
+This project builds on concepts from the **Codebasics LangChain tutorial** with several key enhancements:
 
-✅ **Pre-configured Quick Prompts:**  
-   - Users can choose from common research questions without typing, improving usability.  
-
-✅ **UI Test Mode (No OpenAI Key Required):**  
-   - Allows users to preview and test the interface without needing an OpenAI API key.  
-   - Simulates processing and retrieval steps when the API key is missing.  
-
-✅ **Enhanced Error Handling:**  
-   - Improved input validation (e.g., checking valid URLs before processing).  
-   - Displays detailed error messages for debugging.  
-
-✅ **Cleaner & More Dynamic UI:**  
-   - Sidebar now allows users to set the number of URLs dynamically.  
-   - More structured layout with intuitive controls.  
-
-✅ **Optimized FAISS Index Handling:**  
-   - Avoids overwriting the FAISS index unnecessarily.  
-   - Provides better UI feedback during processing.  
+✅ **Pre-configured Quick Prompts** - Users can select common research questions directly.  
+✅ **UI Test Mode** - Full UI preview without requiring an OpenAI key.  
+✅ **Better Error Handling** - Validates URLs and displays clear error messages.  
+✅ **Dynamic & Cleaner UI** - Users can adjust the number of URLs dynamically.  
+✅ **Smarter FAISS Index Handling** - Avoids unnecessary overwrites and provides clearer progress feedback.
 
 ## Future Enhancements (In the Pipeline)
 
-The following improvements are planned to make this tool even more robust and feature-rich:
-
-🚀 **Support for Text File Uploads:**  
-   - Users will be able to upload `.txt` files, allowing research on offline documents.  
-
-🚀 **Session Management for FAISS Indexes:**  
-   - Users will be able to **save and reload** different research sessions.  
-   - FAISS index files will be timestamped (e.g., `faiss_2025-02-28.pkl`).  
-
-🚀 **Automatic Summarization & Thematic Tagging:**  
-   - The tool will **auto-generate summaries** for processed articles.  
-   - It will detect key topics (e.g., "Finance", "Technology", "Politics") for easier filtering.  
-
-🚀 **Hybrid Search (Keyword + Vector Search):**  
-   - Combines **keyword-based filtering** with FAISS similarity search for **better retrieval**.  
-
-🚀 **Multilingual Processing Support:**  
-   - The system will detect **article language** and allow querying across **multiple languages**.  
-
-🚀 **Automatic URL Scraping for Related Articles:**  
-   - If a user inputs a URL, the system will (optionally) suggest and fetch **related articles** from the same source.  
+🚀 **Text File Uploads** - Support for processing offline `.txt` documents.  
+🚀 **Session Management** - Save and reload research sessions with timestamped FAISS indexes.  
+🚀 **Automatic Summarization & Tagging** - Generate article summaries and detect key topics automatically.  
+🚀 **Hybrid Search** - Combine keyword filtering with FAISS similarity search.  
+🚀 **Multilingual Support** - Process and query content in multiple languages.  
+🚀 **Related Article Scraping** - Suggest and fetch additional articles from the same source.
 
 ## FAISS Index Handling
 
@@ -98,9 +70,7 @@ To speed up subsequent runs, the FAISS index file can be retained locally, but i
 
 Below is a screenshot of the application interface:
 
-![UI Screenshot](./ui_screenshot.png)
-
-> ⚠️ Be sure to save your screenshot as `ui_screenshot.png` in the same folder as this `README.md` so it displays correctly on GitHub.
+![UI Screenshot](./UI.png)
 
 ## Acknowledgement
 
