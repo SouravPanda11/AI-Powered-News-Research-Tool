@@ -30,20 +30,22 @@ This ensures the latest articles are processed, but may result in **slower start
 
 To speed up subsequent runs, the FAISS index file can be retained locally, but it is excluded from version control.
 
-## Sample Use Case
+## How to Use
 
-Example URLs:
+1. **Enter Article URLs**  
+   Open the Streamlit app and enter one or more URLs pointing to news articles related to financial markets or companies.
 
-- [Tesla stock jumps as company beats delivery estimates](https://www.cnbc.com/2024/02/15/tesla-stock-jumps-as-company-beats-delivery-estimates.html)
-- [Federal Reserve signals no rate cuts until inflation slows](https://www.bloomberg.com/news/articles/2024-02-12/federal-reserve-signals-no-rate-cuts-until-inflation-slows)
-- [Apple announces record revenue driven by strong iPhone sales](https://www.wsj.com/articles/apple-announces-record-revenue-driven-by-strong-iphone-sales-567abc)
+2. **Process the Articles**  
+   Click the **Process URLs** button to load, split, and process the articles into embeddings. The system will store these embeddings in a FAISS index.
 
-Example query:
+3. **Ask Questions**  
+   Once processing is complete, you can enter questions such as:
+   > What were the key announcements in the articles?
 
-> *What is the Federal Reserve’s latest stance on interest rates?*
+   The system will retrieve relevant information and provide an answer.
 
-The system retrieves relevant excerpts from the articles and generates a response.
-
+4. **Repeat for New Articles**  
+   You can continue adding new URLs or clear the previous data to process a fresh batch of articles.
 
 ## Acknowledgement
 
