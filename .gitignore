@@ -1,16 +1,36 @@
-# Environment files
-.env
-*.env
-
 # Virtual environment
 venv/
-.env/
-env/
+.env
 
-# FAISS index file
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Environment files
+*.env
+*.ini
+
+# Ignore log files
+*.log
+
+# Ignore FAISS index and pickle files
 *.pkl
 
-# OS generated files
+# OS-generated files
 .DS_Store
 Thumbs.db
 
+# IDE-specific files (optional, if you use these IDEs)
+.vscode/
+.idea/
+
+# Streamlit cache (optional)
+.streamlit/
+
+# Jupyter notebook checkpoints (in case you use notebooks in the future)
+.ipynb_checkpoints/
+
+# Pytest cache (optional)
+.pytest_cache/
