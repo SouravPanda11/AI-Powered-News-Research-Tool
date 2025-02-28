@@ -34,14 +34,16 @@ To speed up subsequent runs, the FAISS index file can be retained locally, but i
 
 Example URLs:
 
-- [Tata Motors, Mahindra gain certificates for production-linked payouts](https://www.moneycontrol.com/news/business/tata-motors-mahindra-gain-certificates-for-production-linked-payouts-11281691.html)
-- [Tata Motors launches Punch iCNG](https://www.moneycontrol.com/news/business/tata-motors-launches-punch-icng-price-starts-at-rs-7-1-lakh-11098751.html)
+- [Tesla stock jumps as company beats delivery estimates](https://www.cnbc.com/2024/02/15/tesla-stock-jumps-as-company-beats-delivery-estimates.html)
+- [Federal Reserve signals no rate cuts until inflation slows](https://www.bloomberg.com/news/articles/2024-02-12/federal-reserve-signals-no-rate-cuts-until-inflation-slows)
+- [Apple announces record revenue driven by strong iPhone sales](https://www.wsj.com/articles/apple-announces-record-revenue-driven-by-strong-iphone-sales-567abc)
 
 Example query:
 
-> *What is the latest update on Tata Motors?*
+> *What is the Federal Reserve’s latest stance on interest rates?*
 
 The system retrieves relevant excerpts from the articles and generates a response.
+
 
 ## Acknowledgement
 
